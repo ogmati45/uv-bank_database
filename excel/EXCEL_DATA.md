@@ -42,3 +42,8 @@ Zawiera analizy dotyczące:
 ---
 
 ✅ Dzięki temu podziałowi możliwe było analizowanie ponad **13 milionów rekordów** w Excelu, pomimo ograniczeń narzędzia.  
+<img width="1649" height="691" alt="2KONTA" src="https://github.com/user-attachments/assets/1720cf14-34f5-40ca-9670-a47a7717e1ae" />
+<img width="1652" height="691" alt="5KONTA WALUTOWE" src="https://github.com/user-attachments/assets/a6ab70ff-b6ee-4c41-a4a8-6f67e94aa53b" />
+<img width="1649" height="692" alt="9ZLECENIA STAŁE" src="https://github.com/user-attachments/assets/94d93ec2-67a9-481c-91f5-4b1b104ec6ba" />
+
+
