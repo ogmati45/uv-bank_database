@@ -22,8 +22,8 @@ Dane testowe wygenerowałem przy użyciu własnego **generatora w Pythonie** (ko
 📂 assets/ → materiały wizualne i dodatkowe  
 └── logo.png → logo projektu UV Bank  
 
-📂 data/ → dane testowe (miliony rekordów w CSV)  
-└── CSV/ → eksportowane rekordy dla wszystkich tabel  
+📂 csv/ → dokumentacja/odnośnik do pełnych CSV
+└── CSV_DATA.md → opis plików CSV + link do pełnego folderu na Google Drive
 
 📂 sql/ → pliki SQL  
 ├── START.SQL → definicja struktury bazy (tabele, klucze, relacje)  
@@ -33,27 +33,21 @@ Dane testowe wygenerowałem przy użyciu własnego **generatora w Pythonie** (ko
 
 📂 excel/ → pliki analityczne Excel  
 ├── BANK EXCEL.pdf → raport zbiorczy z analizy danych w Excelu  
-├── 1KLIENCI.png → wizualizacja analizy klientów  
-├── 2KONTA.png → wizualizacja analizy kont  
-├── 3KARTY.png → wizualizacja analizy kart  
-├── 4PRACOWNICY.png → wizualizacja analizy pracowników  
-├── 5KONTA WALUTOWE.png → wizualizacja analizy kont walutowych  
-├── 6POŻYCZKI.png → wizualizacja analizy pożyczek  
-├── 7WNIOSEK.png → wizualizacja analizy wniosków  
-├── 8LOKATY.png → wizualizacja analizy lokat  
-├──9ZLECENIA STAŁE.png → wizualizacja analizy zleceń stałych  ├── EXCEL_1.xlsx → analiza cz. 1 (podział ze względu na rozmiar danych)  
-├── EXCEL_2.xlsx → analiza cz. 2  
-└── EXCEL_3.xlsx → analiza cz. 3  
+└── EXCEL_DATA.md → co jest w EXCEL_1/2/3 + link do folderu na Google Drive
 
-📂 powerbi/ → pliki Power BI  
-├── BANK wizualizacja.pdf → graficzne przedstawienie struktury i działania bazy  
-└── BANK.pbix → dashboard analityczny Power BI  
+📂 powerbi/ → dashboard i jego opis
+├── BANK wizualizacja.pdf → podgląd/omówienie wizualizacji Power BI
+└── POWERBI_DATA.md → link do BANK.pbix na Google Drive + instrukcja
 
-📂 generator/ → generator danych w Pythonie  
-└── generate_bank_dataset.py → skrypt generujący dane testowe + konfiguracja  
+📂 generator/ → generator danych i słowniki
+├── generate_bank_dataset.py → skrypt generujący dane (konfigurowalny)
+└── data/ → pliki pomocnicze do generatora
+    ├── imiona_k.txt → imiona żeńskie
+    ├── imiona_m.txt → imiona męskie
+    ├── miasta.txt   → lista miast
+    └── nazwiska.txt → lista nazwisk
 
-📂 docs/ → dodatkowa dokumentacja  
-└── README.md → dokumentacja projektu (ten plik)  
+📄 README.md → główna dokumentacja projektu
 
 ---
 
