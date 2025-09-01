@@ -18,21 +18,21 @@ Dane testowe wygenerowałem przy użyciu własnego **generatora w Pythonie** (ko
 ---
 
 ## Struktura repozytorium
-
-📂 assets/ → materiały wizualne i dodatkowe  
-└── logo.png → logo projektu UV Bank  
+```
+📂 assets/ → materiały wizualne i dodatkowe
+└── logo.png → logo projektu UV Bank
 
 📂 csv/ → dokumentacja/odnośnik do pełnych CSV
 └── CSV_DATA.md → opis plików CSV + link do pełnego folderu na Google Drive
 
-📂 sql/ → pliki SQL  
-├── START.SQL → definicja struktury bazy (tabele, klucze, relacje)  
-├── ZAPYTANIA.SQL → zestaw zapytań analitycznych  
-├── WIDOKI.SQL → widoki raportowe  
-└── STRUKTURA BANKU.txt → opis logiki biznesowej i pól w tabelach  
+📂 sql/ → pliki SQL
+├── START.SQL → definicja struktury bazy (tabele, klucze, relacje)
+├── ZAPYTANIA.SQL → zestaw zapytań analitycznych
+├── WIDOKI.SQL → widoki raportowe
+└── STRUKTURA BANKU.txt → opis logiki biznesowej i pól w tabelach
 
-📂 excel/ → pliki analityczne Excel  
-├── BANK EXCEL.pdf → raport zbiorczy z analizy danych w Excelu  
+📂 excel/ → pliki analityczne Excel
+├── BANK EXCEL.pdf → raport zbiorczy z analizy danych w Excelu
 └── EXCEL_DATA.md → co jest w EXCEL_1/2/3 + link do folderu na Google Drive
 
 📂 powerbi/ → dashboard i jego opis
@@ -42,13 +42,13 @@ Dane testowe wygenerowałem przy użyciu własnego **generatora w Pythonie** (ko
 📂 generator/ → generator danych i słowniki
 ├── generate_bank_dataset.py → skrypt generujący dane (konfigurowalny)
 └── data/ → pliki pomocnicze do generatora
-    ├── imiona_k.txt → imiona żeńskie
-    ├── imiona_m.txt → imiona męskie
-    ├── miasta.txt   → lista miast
-    └── nazwiska.txt → lista nazwisk
+├── imiona_k.txt → imiona żeńskie
+├── imiona_m.txt → imiona męskie
+├── miasta.txt → lista miast
+└── nazwiska.txt → lista nazwisk
 
 📄 README.md → główna dokumentacja projektu
-
+```
 ---
 
 ## Struktura danych
