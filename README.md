@@ -42,10 +42,10 @@ Dane testowe wygenerowałem przy użyciu własnego **generatora w Pythonie** (ko
 📂 generator/ → generator danych i słowniki
 ├── generate_bank_dataset.py → skrypt generujący dane (konfigurowalny)
 └── data/ → pliki pomocnicze do generatora
-├── imiona_k.txt → imiona żeńskie
-├── imiona_m.txt → imiona męskie
-├── miasta.txt → lista miast
-└── nazwiska.txt → lista nazwisk
+    ├── imiona_k.txt → imiona żeńskie
+    ├── imiona_m.txt → imiona męskie
+    ├── miasta.txt → lista miast
+    └── nazwiska.txt → lista nazwisk
 
 📄 README.md → główna dokumentacja projektu
 ```
