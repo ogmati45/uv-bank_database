@@ -164,6 +164,10 @@ Dane testowe wygenerowałem przy użyciu własnego **generatora w Pythonie** (ko
 
 ---
 
+<img width="1471" height="1561" alt="Untitled(1)" src="https://github.com/user-attachments/assets/2d7a8612-5c67-492d-8bea-96eb16a07b69" />
+
+---
+
 ## Potencjalne zastosowania
 - Trening i nauka **SQL** – od podstawowych zapytań po zaawansowane widoki i analizy.  
 - Symulacja pracy na **dużych zbiorach danych** (miliony rekordów) – idealne do testów wydajności i optymalizacji.  
